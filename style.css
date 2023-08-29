@@ -1,0 +1,107 @@
+.main{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.result{
+    /* width: 100%;
+    height: 200px;
+    background-color: lightskyblue;
+    color: white; */
+    position: relative;
+    grid-column: span 4;
+    height: 100px;
+    width: 42%;
+    left: 10px;
+    border: none;
+    outline: none;
+    background-color: #a7af7c;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.75);
+    text-align: right;
+    padding: 10px;
+    font-size: 2em;
+}
+
+.clrBtn{
+    width: 33%;
+    background-color:red;
+    color: #fff;
+    position: relative;
+    display: grid;
+    place-items: center;
+    margin: 8px;
+    height: 80px;
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15), inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75), 10px 20px 25px rgba(0, 0, 0, 0.4);
+    user-select: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 10px;
+    font-size: 36px;
+
+}
+
+
+.btn{
+    /* background-color: lightskyblue;
+    width: 45px;
+    margin: 1px; */
+    color: #fff;
+    position: relative;
+    display: grid;
+    width: 80px;
+    place-items: center;
+    margin: 8px;
+    height: 80px;
+    background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15), inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75), 10px 20px 25px rgba(0, 0, 0, 0.4);
+    user-select: none;
+    cursor: pointer;
+    font-weight: 400;
+    font-size: 36px;
+    border-radius: 10px;
+    display: inline;
+}
+
+.btn1{
+    /* background-color: lightskyblue;
+    width: 45px;
+    margin: 1px;
+    margin-left: 4px; */
+    color: #fff;
+    position: relative;
+    display: grid;
+    width: 80px;
+    font-size: 36px;
+    place-items: center;
+    margin: -87px 0px 0px 307px;
+    height: 80px;
+    background: linear-gradient(180deg, #2f2f2f, #3f3f3f);
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15), inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75), 10px 20px 25px rgba(0, 0, 0, 0.4);
+    user-select: none;
+    cursor: pointer;
+    font-weight: 400;
+    border-radius: 10px;
+}
+
+
+.halfbtn{
+    background-color:lightskyblue ;
+    /* width: 95%;
+    margin-top: 4px; */
+    color: #fff;
+    position: relative;
+    display: grid;
+    width: 33%;
+    place-items: center;
+    margin: -87px 0px 0px 109px;
+    height: 80px;
+    box-shadow: inset -8px 0 8px rgba(0, 0, 0, 0.15), inset 0 -8px 8px rgba(0, 0, 0, 0.25), 0 0 0 2px rgba(0, 0, 0, 0.75), 10px 20px 25px rgba(0, 0, 0, 0.4);
+    user-select: none;
+    cursor: pointer;
+    font-size: 36px;
+    font-weight: 400;
+    border-radius: 10px;
+}
